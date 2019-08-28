@@ -8,20 +8,18 @@ The main objective of this Web application is to provide a modern and easy ways 
 |:--------|:-----|:------|
 |Make Your Order|Enter Credentials| Dialog box with Total Price|
 ## Setup/Installation Requirements
-* This is a great place
-* to list setup instructions
-* in a simple
-* easy-to-understand
-* format
-{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? Do I need to install any dependencies? How should I set up my databases? Is there other code this app depends on?}
+1) Create account on Github
+2) Fork the repository from Github https://github.com/EdwardT94/Pizza-Place-IP4.git
+3) Clone the repository
+4) Open the Link from the Repository
 ## Known Bugs
 There are no known bugs.
 ## Technologies Used
-1)javaScript
-2)jQuery
-3)Bootstrap
-4)Css
-5)HTML
+1) javaScript
+2) jQuery
+3) Bootstrap
+4) Css
+5) HTML
 ## Support and contact details
 email: edwardmutisyathomas@gmail.com, phoneNumber: +254720314121
 ### License
