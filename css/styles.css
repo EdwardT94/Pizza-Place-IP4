@@ -1,0 +1,140 @@
+body{
+    color: rgb(212, 133, 35);
+}
+
+/* SOCIAL ICONS */
+.info{
+    background:rgb(212, 133, 35);
+}
+.primary-color{
+    color: rgb(6, 99, 68);
+}
+.info h2{
+    word-spacing: 0.6rem;
+}
+.info a {
+    transiStion: color 1s ease-in-out;
+}
+.info a:hover {
+    color: black;
+}
+/* END OF SOCIAL ICONS */
+}
+
+/* NAVIGATION BAR */
+.topnav {
+    overflow: hidden;
+  }
+  
+  .topnav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: rgb(6, 99, 68);
+    color: white;
+  }
+  
+  .topnav a.active {
+    background-color: rgb(6, 99, 68);
+    color: black;
+  }
+/* END OF NAV BAR */
+/* START OF HEADER SECTION */
+#header{
+    min-height: calc(100vh - 94px);
+    background:linear-gradient(rgba(3, 3, 3, 0.7),rgba(3, 3, 3, 0.7) ), url(../images/header2.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.height-90 {
+    min-height: calc(100vh - 94px);
+}
+.banner h1{
+    border-top: 7px dotted rgb(212, 133, 35);
+    border-bottom: 7px dotted rgb(212, 133, 35);
+    animation: fromright;
+    animation-duration: 5s;
+    animation-delay:1s; 
+}
+@keyframes fromright{
+   0%{
+      transform: translateX(+200px);
+      opacity: 0;
+   }
+   50%{
+      transform: translateX(-40px);
+   } 
+   100%{
+      transform: translateX(0);
+      opacity: 1;
+   }  
+}
+
+
+.main-btn{
+    color: rgb(6, 99, 68);
+    font-size: 2rem;
+    border: 3px solid white;
+    transition: all 1s ease-in-out;
+}
+.main-btn:hover{
+    color: rgb(6, 99, 68);
+    background: white;
+    border: white;
+}
+.happys-btn{
+    animation: fromleft;
+    animation-duration: 5s;
+    animation-delay:1s;
+}
+@keyframes fromleft{
+    0%{
+       transform: translateX(-200px);
+       opacity: 0;
+    }
+    50%{
+       transform: translateX(+40px);
+    } 
+    100%{
+       transform: translateX(0);
+       opacity: 1;
+    }  
+ }
+.header-link{
+    display: inline-block;
+    position: absolute;
+    bottom:0.55rem;
+    left: 50%;
+    background: white;
+    border-radius: 15px;
+    transition: all 1s ease;
+    animation: frombottom;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+.header-link{
+    color: rgb(0, 0, 0);
+}
+@keyframes frombottom{
+    0%{
+        transform: translateY(-10px);
+    }
+    50%{
+        transform: translateY(+10px);
+    }
+    100%{
+        transform: translateY(-10px);
+    }
+}
+
+
+/* END OF HEADER SECTION */
