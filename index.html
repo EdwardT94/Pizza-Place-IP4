@@ -41,14 +41,165 @@
                          <h1 class="display-1 text-capitalize w-50 mx-auto">
                             HAPPY'S <strong class="primary-color">pizza</strong>
                          </h1>
+                         <form class="form" action="index.html" method="post" >
                          <a href="" class="btn main-btn happys-btn my-4 text-capitalize">place your order</a>
-                     </div>
+                         <select class="browser-default custom-select mb-4" searchable="select here..">
+                             <option value="" disabled selected>Select pizza size</option>
+                             <option value="1">Small</option>
+                             <option value="2">Medium</option>
+                             <option value="3">Large</option>
+                         </select>
+                         <select class="browser-default custom-select mb-4" searchable="select here..">
+                            <option value="" disabled selected>Select Crust</option>
+                            <option value="1">Cripsy</option>
+                            <option value="2">Stuffed</option>
+                            <option value="3">Gluten-free</option>
+                        </select>
+                        <select class="browser-default custom-select mb-4" searchable="select here..">
+                            <option value="" disabled selected>Select Toppings</option>
+                            <option value="1">Bacon</option>
+                            <option value="2">Pepperoni</option>
+                            <option value="3">Mashroom</option>
+                        </select>
+                        </form>
+                    </div>
                  </div>
              </div>
          </div>
          <a href="#Menu" class="btn header-link primary-color"><i class="fas fa-arrow-down"></i></a>
     </header>
     <!-- ENDHOME AND HEAD SECTION -->
+    <!-- Menu -->
+    <section class="py-5" id="Menu">
+        <div class="main-menu">
+        <h2><strong>MENU</strong></h2>
+        <marquee behavior="scroll" direction="left"><p><strong><i>The taste you deserve at HAPPY'S pizza place</i> </strong></p></marquee>
+        </div>
+        <div class="container my-0">
+            <!-- first row -->
+            <div class="row menu1">
+                <div class="col-10 mx-auto col-sm-6 col-lg-3 my-3">
+                    <div class="item-container">
+                        <img src="images/Bacon.jpg" class="img-fluid img-thumbnail" alt="loading">
+                        <a href="images/Bacon.jpg"> <h4 class="text-uppercase text-center item-link px-3">Bacon and beef</h4></a>
+                    </div>
+                </div>
+                <div class="col-10 mx-auto col-sm-6 col-lg-3 my-3">
+                        <div class="item-container">
+                            <img src="images/paleo.jpeg" class="img-fluid img-thumbnail" alt="loading">
+                            <a href="images/paleo.jpeg"> <h4 class="text-uppercase text-center item-link px-3">Perfect Paleo</h4></a>
+                        </div>
+                </div>
+                <div class="col-10 mx-auto col-sm-6 col-lg-3 my-3">
+                        <div class="item-container">
+                            <img src="images/hawaiian.jpg" class="img-fluid img-thumbnail" alt="loading">
+                            <a href="images/hawaiian.jpg"> <h4 class="text-uppercase text-center item-link px-3">Super hawaiian</h4></a>
+                </div>
+                </div>
+            </div>
+            <!-- second row -->
+            <div class="row menu1">
+                    <div class="col-10 mx-auto col-sm-6 col-lg-3 my-3">
+                        <div class="item-container">
+                            <img src="images/mashroom.jpg" class="img-fluid img-thumbnail" alt="loading">
+                            <a href="images/mashroom.jpg"> <h4 class="text-uppercase text-center item-link px-3">mashroom</h4></a>
+                        </div>
+                    </div>
+                    <div class="col-10 mx-auto col-sm-6 col-lg-3 my-3">
+                            <div class="item-container">
+                                <img src="images/pepperoni.jpg" class="img-fluid img-thumbnail" alt="loading">
+                                <a href="images/pepperoni.jpg"> <h4 class="text-uppercase text-center item-link px-3">pepporoni</h4></a>
+                            </div>
+                    </div>
+                    <div class="col-10 mx-auto col-sm-6 col-lg-3 my-3">
+                            <div class="item-container">
+                                <img src="images/dominos1.jpg" class="img-fluid img-thumbnail" alt="loading">
+                                <a href="images/dominos1.jpg"> <h4 class="text-uppercase text-center item-link px-3">Great domino's</h4></a>
+                            </div>
+                    </div>
+                </div>
+
+        </div>
+    </section>
+    <!-- End of Menu -->
+    <!-- Blog -->
+    <section id="reviews" class="py-5">
+        <div id="slider" class="carousel slide" data-ride="carousel">
+        </div>
+    </section>
+    <!-- end of blog-->
+    <!-- Contact us -->
+<section class="section pb-2">
+        <h2 class="con">CONTACT US</h2>
+        <div class="row">
+          <div class="col-lg-5 mb-1">
+            <div class="card">
+              <div class="card-body">
+                <div class="form-header blue accent-1">
+                  <h3><i class="fas fa-envelope"></i> Snd us a message:</h3>
+                </div><br>
+
+                <div class="md-form">
+                  <i class="fas fa-user prefix grey-text"></i> <label for="form-name">Your name</label>
+                  <input type="text" id="form-name" class="form-control" required="required">
+                </div>
+      
+                <div class="md-form">
+                  <i class="fas fa-envelope prefix grey-text"></i> <label for="form-email">Your email</label>
+                  <input type="text" id="form-email" class="form-control">
+                </div>
+                <div class="md-form">
+                    <i class="fa fa-envelope" aria-hidden="true"></i>  <label for="form-Subject">Your Message</label>
+                  <textarea id="form-text" class="form-control md-textarea" rows="3"></textarea>
+                </div>
+      
+                <div class="text-center mt-4">
+                  <button class="submit">SEND</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-7">
+                <div class="mapouter">
+                    <div class="gmap_canvas">
+                        <iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=Ngong%20road%2Cnairobi%2C%20kenya&t=k&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                        <a href="https://www.utilitysavingexpert.com">Edward thomas</a>
+                    </div>
+                    <style>
+                    .mapouter{position:relative;text-align:right;height:400px;width:800px;}.gmap_canvas {overflow:hidden;background:none!important;height:400px;width:600px;}
+                    </style>
+                </div>
+            <br>
+            <div class="row text-center1">
+                <div class="col-md-4">
+                    <a class="btn-floating blue accent-1"><i class="fas fa-map-marker-alt"></i></a>
+                    <p>Nairobi,</p>
+                    <p>Kenya</p>
+                </div>
+      
+                <div class="col-md-4">
+                    <a class="btn-floating blue accent-1"><i class="fas fa-phone"></i></a>
+                    <p>+254 720 314 121</p>
+                    <p>Mon - Fri, 8am-11pm</p>
+                </div>
+      
+                <div class="col-md-4">
+                    <a class="btn-floating blue accent-1"><i class="fas fa-envelope"></i></a>
+                    <p>info@happyspizaplace.com</p>
+                    <p>edwardthomas@gmail.com</p>
+                </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    <!-- End of contact us -->
+    <!-- Footer -->
+    <footer>
+            <h6><b>DELANI STUDIO</b></h6>
+            <h6><b>2019</b></h6>
+        </footer>
+    <!-- end of footer -->
+    
     
 
 

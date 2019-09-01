@@ -1,5 +1,6 @@
 body{
     color: rgb(212, 133, 35);
+    background-image: url(../images/back11.jpg)
 }
 
 /* SOCIAL ICONS */
@@ -135,6 +136,68 @@ body{
         transform: translateY(-10px);
     }
 }
-
-
 /* END OF HEADER SECTION */
+
+/* MENU */
+.main-menu{
+    text-align: center;
+    background-color: rgb(212, 133, 35);
+    color: rgb(6, 99, 68);
+}
+
+.item-container{
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(rgba(3, 3, 3, 0.966),rgb(3, 3, 3) );
+    transition: all 2s ease;
+    color: rgb(6, 99, 68);
+}
+.item-img{
+    transition: all 1s ease;
+}
+.item-container:hover .item-img{
+    transform: scale(1.2);
+}
+.item-link{
+    color: rgb(6, 99, 68);
+    font-size: 1rem;
+    border-top: solid;rgb(144, 231, 204);
+    border-bottom: solid;rgb(144, 231, 204);
+}
+.container{
+
+    padding-top: 1px;
+}
+
+/* END OF MENU */
+/* contact us */
+.map-container-6{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+    }
+    .map-container-6 iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+    }
+.submit{
+    color: black;
+    background-color: rgb(212, 133, 35);
+}
+.text-center1{
+    color:white;
+    text-align: left;
+}
+.con{
+    text-align: center;
+}
+/* end of contact */
+footer{
+    text-align: center;
+    margin-top: 50px;
+    color: rgb(212, 133, 35);
+}
