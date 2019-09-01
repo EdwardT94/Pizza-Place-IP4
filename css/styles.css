@@ -201,3 +201,14 @@ footer{
     margin-top: 50px;
     color: rgb(212, 133, 35);
 }
+.select{
+
+    width: 150px;
+    margin: 10px;
+    height: 20px;
+}
+/* about us */
+.about h2{
+    text-align: center;
+}
+/* end */
