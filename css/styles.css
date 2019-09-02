@@ -223,3 +223,9 @@ footer{
     background: wheat;
     color: black;
 }
+.order h2{
+    color: rgb(212, 133, 35);
+}
+.order p{
+    color: green;
+}
