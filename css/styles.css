@@ -1,6 +1,8 @@
 body{
     color: rgb(212, 133, 35);
-    background-image: url(../images/back11.jpg)
+    background-image: url(../images/back11.jpg);
+    font-family: 'Playfair Display', serif;
+    font-family: 'Balthazar', serif;
 }
 
 /* SOCIAL ICONS */
