@@ -208,7 +208,13 @@ footer{
     height: 20px;
 }
 /* about us */
+.about{
+    background-image: url(../images/back1.jpg);
+}
 .about h2{
+    text-align: center;
+}
+.about h6{
     text-align: center;
 }
 /* end */
